@@ -1,6 +1,6 @@
 <map version="docear 1.1" dcr_id="1377256223204_b39rfdpz2os68kaxwrjpjbnoi" project="DOCEAR_VIRTUAL_PROJECT" project_last_home="file:/.">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
-<node TEXT="Hub" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1507840979410" COLOR="#ffffff" BACKGROUND_COLOR="#0099cc">
+<node TEXT="Hub" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1507957334097" COLOR="#ffffff" BACKGROUND_COLOR="#0099cc">
 <font SIZE="16" BOLD="true" ITALIC="false"/>
 <hook NAME="MapStyle" zoom="0.75">
     <properties show_icon_for_attributes="true" show_note_icons="true" show_notes_in_map="false"/>
@@ -52,7 +52,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="5"/>
 <attribute_layout NAME_WIDTH="73" VALUE_WIDTH="73"/>
 <node TEXT="Docear" POSITION="left" ID="ID_491481526" CREATED="1507654547749" MODIFIED="1507654549493" MOVED="1507654785888">
 <edge COLOR="#0000ff"/>
@@ -501,6 +501,16 @@
 <node TEXT="Communication between projects about changes" ID="ID_361116042" CREATED="1507834901895" MODIFIED="1507834914342"/>
 </node>
 </node>
+<node TEXT="More intelligent positioning / drag" ID="ID_1089791135" CREATED="1507957434363" MODIFIED="1507957441722">
+<node TEXT="When I move a node to the opposite, it should grow that way (unlress I tell it which way to grow)" ID="ID_1585748752" CREATED="1507957442472" MODIFIED="1507957458023"/>
+<node TEXT="The ordering of the branches should be determined by their position." ID="ID_1688988111" CREATED="1507957459564" MODIFIED="1507957472431"/>
+</node>
+<node TEXT="Simpler and more useful implementation of Docear &quot;styles&quot;" ID="ID_627240493" CREATED="1507957590256" MODIFIED="1507957626459">
+<node TEXT="Example: Headings, subheadings etc. might constitute a set of logical relations most useful for writing exposition, but other relations might be more useful for different applications. The relations which are most convenient to use should be the ones which are most useful, determined by your purpose, inferred from the context and simple user input prompted." ID="ID_693243112" CREATED="1507957628768" MODIFIED="1507957777268">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1374689660" STARTINCLINATION="676;0;" ENDINCLINATION="676;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1680324786" STARTINCLINATION="570;0;" ENDINCLINATION="570;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
 </node>
 <node TEXT="Motivation" FOLDED="true" ID="ID_300370065" CREATED="1507667551101" MODIFIED="1507667552921">
 <node TEXT="Practical Theory 1" ID="ID_1159884276" CREATED="1507667562277" MODIFIED="1507667568489">
@@ -508,6 +518,9 @@
 </node>
 <node TEXT="Practical Theory 2" ID="ID_392811063" CREATED="1507667640116" MODIFIED="1507667645370">
 <node TEXT="Some explicit structure might enable automatic conversion between document formats (Docear already does this one way) that could make sharing complex ideas quicker, and maybe elliminate entire categories of software for the average user." ID="ID_1631304343" CREATED="1507667645580" MODIFIED="1507667839103" HGAP="25" VSHIFT="49"/>
+</node>
+<node TEXT="Other Notes" ID="ID_1315120434" CREATED="1507957500833" MODIFIED="1507957509268">
+<node TEXT="Mind mapping is probably great, but like any tool - using it exclusively has advantages and disadvanteges. For most people, a hybrid approach (that can over long periods of use grow to a very deep level of famiarity) is the most effecient use of time." ID="ID_692825814" CREATED="1507957510013" MODIFIED="1507957576780"/>
 </node>
 </node>
 </node>
@@ -841,7 +854,9 @@
 </node>
 <node TEXT="In Back folder" ID="ID_4944464" CREATED="1507943587705" MODIFIED="1507943591914">
 <node TEXT="Philosophy of Science" ID="ID_221180383" CREATED="1507943592561" MODIFIED="1507943595870">
-<node TEXT="Phil 254 Class Notes (minus Hempel Confirmationism @P4)" ID="ID_1792087456" CREATED="1507943596632" MODIFIED="1507943659821" LINK="#ID_485054319"/>
+<node TEXT="Phil 254 Class Notes (minus Hempel Confirmationism)" ID="ID_1792087456" CREATED="1507943596632" MODIFIED="1507957826340">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_485054319" STARTINCLINATION="-956;291;" ENDINCLINATION="-224;287;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
 </node>
 </node>
 <node TEXT="DIGITAL ONLY:" ID="ID_1408554418" CREATED="1507931722426" MODIFIED="1507941540343" VSHIFT="240">
@@ -910,6 +925,29 @@
 <node TEXT="Pierce&apos;s Method of Inquiry" ID="ID_1767597430" CREATED="1507941354091" MODIFIED="1507941362173"/>
 <node TEXT="Scientific Method" ID="ID_674437381" CREATED="1507941363962" MODIFIED="1507941366970"/>
 </node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Personal Philosophy" POSITION="right" ID="ID_1101253980" CREATED="1507956508731" MODIFIED="1507956968078" HGAP="-92" VSHIFT="80" MOVED="1507956952410">
+<edge COLOR="#ff00ff"/>
+<node TEXT="Truth and Facts" ID="ID_1285734025" CREATED="1507956588829" MODIFIED="1507956956884">
+<node TEXT="I think they need to die, like God did." ID="ID_1647567989" CREATED="1507956600542" MODIFIED="1507956608120">
+<node TEXT="Intellectuals relied on arguments of God." ID="ID_609457820" CREATED="1507956608823" MODIFIED="1507956619700" MOVED="1507956801431">
+<node TEXT="But really, the conditions that supported their belief in God were actually doing the work towards all of the phenomena that they used in their arguemtns for God." ID="ID_1690436665" CREATED="1507956620391" MODIFIED="1507956658129" MOVED="1507956807120"/>
+</node>
+</node>
+<node TEXT="So I think it is with Truth as well. I think it&apos;s the mechanisms that we use to support our belief in Truth that actually do the work of Truth. I want to extract as many of them as I can and rip our blind faith in Truth out like a weed." ID="ID_1428964617" CREATED="1507956658505" MODIFIED="1507956703114">
+<node TEXT="So what are the mechanisms that support our belief in Truth?" ID="ID_720351727" CREATED="1507956782320" MODIFIED="1507956794349">
+<node TEXT="Sociological Factors" ID="ID_225663835" CREATED="1507956977779" MODIFIED="1507957859612">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_382302993" STARTINCLINATION="903;-189;" ENDINCLINATION="1225;-151;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="Emotional Dependence" ID="ID_1106372067" CREATED="1507956993329" MODIFIED="1507956999046"/>
+<node TEXT="Drive for simplicity" ID="ID_1285426171" CREATED="1507957002349" MODIFIED="1507957005277"/>
+<node TEXT="Binary logic" ID="ID_825351480" CREATED="1507957007547" MODIFIED="1507957029771">
+<node TEXT="Binary logical compatibility" ID="ID_1353432570" CREATED="1507957054611" MODIFIED="1507957061747"/>
+</node>
+<node TEXT="Simplest function of refernce in language" ID="ID_599669937" CREATED="1507957080952" MODIFIED="1507957092374"/>
 </node>
 </node>
 </node>
